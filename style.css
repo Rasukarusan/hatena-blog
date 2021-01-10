@@ -1,0 +1,245 @@
+.entry-content blockquote {
+    position: relative;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    font-style: italic;
+    color: #585858;
+    border: solid 3px #585858;
+}
+.entry-content blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    content: "\f10d";
+    font-family: FontAwesome;
+    background: #585858;
+    color: #FFF;
+    font-size: 22px;
+}
+
+.entry-content blockquote:after{
+    display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    content: "\f10e";
+    font-family: FontAwesome;
+    background: #585858;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.entry-content blockquote p {
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.7;
+}
+
+.entry-content blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+
+
+/*サイドバーフォローボタン*/
+.sidebar-follow-buttons{
+    width: 100%;
+    text-align: center;
+    letter-spacing: -.40em;
+}
+.sidebar-follow-buttons a {
+    display: inline-block;
+    letter-spacing: normal;
+    position: relative;
+    width: 47%;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding:6% 0;
+    margin:1%;
+    overflow: hidden;
+    z-index:2;
+}
+.sidebar-follow-buttons a:hover {
+    color:#fff;
+    transition: all .3s;
+}
+.sidebar-follow-buttons a:after {
+    position:absolute;
+    content:'';
+    width:100%;
+    height:100%;
+    top:-100%;
+    left:0;
+    z-index:-1;
+    transition: 0.2s;
+}
+.sidebar-follow-buttons .inner-text {
+    font-size:16px;
+    padding-left:5px;
+}
+.sidebar-follow-buttons .hatena {
+    color: #38393C;
+    border: 1px solid #38393C;
+    background: #ffffff;
+}
+.sidebar-follow-buttons .hatena:hover:after {
+    top:0;
+    background:#38393C;
+}
+.sidebar-follow-buttons .facebook {
+    color: #305097;
+    border: 1px solid #305097;
+    background: #ffffff;
+}
+.sidebar-follow-buttons .facebook:hover:after {
+    top:0;
+    background:#305097;
+}
+.sidebar-follow-buttons .twitter {
+    color: #55acee;
+    border: 1px solid #55acee;
+    background: #ffffff;
+}
+.sidebar-follow-buttons .twitter:hover:after {
+    top:0;
+    background:#55acee;
+}
+.sidebar-follow-buttons .instagram {
+    color: #3f729b;
+    border: 1px solid #3f729b;
+    background: #ffffff;
+}
+.sidebar-follow-buttons .instagram:hover:after {
+    top:0;
+    background:#3f729b;
+}
+.sidebar-follow-buttons .feedly {
+    color: #6cc655;
+    border: 1px solid #6cc655;
+    background: #ffffff;
+}
+.sidebar-follow-buttons .feedly:hover:after {
+    top:0;
+    background:#6cc655;
+}
+.sidebar-follow-buttons .googleplus {
+    color: #db4a39;
+    border: 1px solid #db4a39;
+    background: #ffffff;
+}
+.sidebar-follow-buttons .googleplus:hover:after {
+    top:0;
+    background:#db4a39;
+}
+
+
+/*「PRO」バッジを非表示*/
+.badge-type-pro {
+    display: none;
+}
+
+/*
+.hatena-star-add-button {
+   display: inline-block;
+    flex-grow: 1;
+    min-width: 45px;
+    height: 32px;
+    color: #59bb0c;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: .2em;
+    transition: background-color .1s ease-out,color .1s ease-out;
+}
+*/
+
+/**** いいねボタン ****/
+/*
+.hatena-star-add-button{
+   display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 0%;
+    color: #38393C;
+    border: 1px solid #38393C;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.hatena-star-add-button-image {
+  background:url("https://rasukarusan.github.io/blog-assets/thumbs-up-solid.svg");
+  background-size: cover;
+}
+*/
+
+/***コードの折返し**/
+pre, code {
+    max-height    : 800px;
+    overflow      : scroll;
+    white-space   : pre !important;
+    /*text-overflow : clip !important;*/
+}
+
+/***画像ホバー時のポップアップをしないよう設定***/
+img.hatena-fotolife { pointer-events: none; }
+figure.figure-image-fotolife{ pointer-events: none; }
+
+/***フォントサイズを変更***/
+.entry-content {
+    font-size:16px;
+}
+.code {
+    font-size:12px;
+}
+
+pre.code {
+  position: relative;
+}
+
+/**コードブロックに言語名を表示**/
+/*
+pre.code[data-lang-label]::before {
+  content: attr(data-lang-label);
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #a6b5b6;
+  background-color: #272c38;
+  border-radius: 0 0 0 4px;
+  padding: 0 7px;
+}
+*/
+
+/****シンタックスハイライト*****/
+.entry-content pre.code {
+    background-color: #1D1F21;
+    color: #C5C8C6;
+    border: solid 2px lightgray;  /* Base   */
+    }
+   .synSpecial { color: #CC6666 } /* Red    */
+      .synType { color: #F0C674 } /* Yellow */
+   .synComment { color: #7D8C93 } /* Base   */
+   .synPreProc { color: #CB4b16 } /* Orange */
+.synIdentifier { color: #81A2BE } /* Blue   */
+  .synConstant { color: #8ABEB7 } /* Cyan   */
+ .synStatement { color: #B5BD68 } /* Green  */
