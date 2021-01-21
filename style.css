@@ -5,6 +5,7 @@
     font-style: italic;
     color: #585858;
     border: solid 3px #585858;
+    margin: 20px;
 }
 .entry-content blockquote:before{
     display: inline-block;
