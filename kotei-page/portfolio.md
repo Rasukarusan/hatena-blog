@@ -1,7 +1,5 @@
-<script>
-    let sidebar = document.getElementById('box2')
-    sidebar.remove()
-</script>
+<span style="color:red;">※1年以上更新されていません。<a href="https://github.com/Rasukarusan" target="_blank">Github</a>のピン留めしているもののほうがナウいです。</span>
+
 ## モバイル
 
 [https://itunes.apple.com/us/app/purotan/id1137911932?l=ja&ls=1&mt=8:embed]

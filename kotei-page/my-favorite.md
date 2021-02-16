@@ -1,12 +1,21 @@
 はてぶの人気記事には上がっていないが個人的に書いていて気持ちよかった記事。
 
-## Instagramぶっこ抜き
+---
 
-[https://www.rasukarusan.com/entry/2019/06/23/220616:embed:cite]
+## ShellでSeleniumを作る ~Shellnium~
 
-これを作った時にGoを初めて触った。  
-同期に個人的にレビューしてもらって割と気持ちの良いコードになったのですごく感謝してる。あとHeroku(Go)×GithuPages(html,js)でデプロイしたのも初めてだったが、めちゃくちゃ楽で感動した。
+Qiitaで書いた記事。SeleniumもShellもどっちも好きで、掛け算して出来上がったもの。  
+サクッとスクレイピングするときに結構使っている。
+[https://qiita.com/Rasukarusan/items/70a54bd38c71a07ff7bd:embed:cite]
 
+
+## ShellScriptで業務ツールをハイパーハックする
+
+[https://www.rasukarusan.com/entry/2019/12/20/000000:embed:cite]
+
+[Qiitaアドベントカレンダーのイベント](https://qiita.com/advent-calendar/2019/yumemi_no1)で投稿した記事。  
+賞には選ばれなかったものの、初めてはてぶの人気エントリーに載った記事。  
+1日3000PVぐらいが3日間ぐらい続き、バズるという感覚がちょっとだけ分かった。
 
 ## 僕が考える使うべきではない言葉なので修正してくださいのワンライナー集
 
@@ -19,13 +28,10 @@
 
 ## Kali-Linuxで遊ぶ
 
-
 [https://www.rasukarusan.com/entry/2019/10/06/171811:embed:cite]
 
 Kali-Linuxの環境構築を完璧にできた記事。2度目のエントリで1回目は途中で省いちゃった箇所があって再現性がなかったり、provisionもシェルスクリプトでやっちゃっててずっと気持ち悪かった。  
 この記事ではprovisionもansibleでやったり、最新のkaliディストリビューションを使用して、完全な環境を構築できたと思ってる。
-
-
 
 [https://www.rasukarusan.com/entry/2019/10/06/204336:embed:cite]
 
@@ -33,7 +39,6 @@ kali環境を構築してまずやったのがこれ。やっぱりビジュア�
 
 
 ## fzfでChromeのタブ移動をする
-
 
 [https://www.rasukarusan.com/entry/2019/11/03/190519:embed:cite]
 
@@ -57,16 +62,14 @@ NeoVimに乗り換えてからFloatingWindowで何かしたいなあと思って
 [gorillaさん](https://twitter.com/gorilla0513)にリツイートして頂きちょっとだけバズった。  
 VimでARっぽいこともできるんじゃないかなと思っていて、自分的にはもっとワクワクさせれるものになるんじゃないかなと思いながら書いた記事。
 
-## ShellScriptで業務ツールをハイパーハックする
+## Instagramぶっこ抜き
 
-[https://www.rasukarusan.com/entry/2019/12/20/000000:embed:cite]
+[https://www.rasukarusan.com/entry/2019/06/23/220616:embed:cite]
 
-[Qiitaアドベントカレンダーのイベント](https://qiita.com/advent-calendar/2019/yumemi_no1)で投稿した記事。  
-賞には選ばれなかったものの、初めてはてぶの人気エントリーに載った記事。  
-1日3000PVぐらいが3日間ぐらい続き、バズるという感覚がちょっとだけ分かった。
+これを作った時にGoを初めて触った。  
+同期に個人的にレビューしてもらって割と気持ちの良いコードになったのですごく感謝してる。あとHeroku(Go)×GithuPages(html,js)でデプロイしたのも初めてだったが、めちゃくちゃ楽で感動した。
 
 
 ## 随時更新していく
 
 記事書いた後一押しだと思ったら適宜追加していく。
-
