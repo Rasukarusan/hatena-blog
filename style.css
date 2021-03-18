@@ -2,6 +2,10 @@ li {
     padding-bottom: 5px;
 }
 
+summary {
+  cursor: pointer;
+}
+
 kbd {
   padding: 1px 3px;
   margin-right: 3px;
