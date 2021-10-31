@@ -207,9 +207,11 @@ figure.figure-image-fotolife{ pointer-events: none; }
 /***フォントサイズを変更***/
 .entry-content {
     font-size:16px;
+    line-height: 2;
 }
 .code {
     font-size:12px;
+    line-height: 1.5;
 }
 
 pre.code {
