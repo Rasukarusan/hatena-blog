@@ -157,41 +157,6 @@ kbd {
     display: none;
 }
 
-/*
-.hatena-star-add-button {
-   display: inline-block;
-    flex-grow: 1;
-    min-width: 45px;
-    height: 32px;
-    color: #59bb0c;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: .2em;
-    transition: background-color .1s ease-out,color .1s ease-out;
-}
-*/
-
-/**** いいねボタン ****/
-/*
-.hatena-star-add-button{
-   display: inline-block;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    border-radius: 0%;
-    color: #38393C;
-    border: 1px solid #38393C;
-    vertical-align: middle;
-    text-align: center;
-
-}
-
-.hatena-star-add-button-image {
-  background:url("https://rasukarusan.github.io/blog-assets/thumbs-up-solid.svg");
-  background-size: cover;
-}
-*/
-
 /***コードの折返し**/
 pre, code {
     max-height    : 800px;
@@ -236,14 +201,29 @@ pre.code[data-lang-label]::before {
 
 /****シンタックスハイライト*****/
 .entry-content pre.code {
-    background-color: #1D1F21;
-    color: #C5C8C6;
-    border: solid 2px lightgray;  /* Base   */
-    }
-   .synSpecial { color: #CC6666 } /* Red    */
-      .synType { color: #F0C674 } /* Yellow */
-   .synComment { color: #7D8C93 } /* Base   */
-   .synPreProc { color: #CB4b16 } /* Orange */
-.synIdentifier { color: #81A2BE } /* Blue   */
-  .synConstant { color: #8ABEB7 } /* Cyan   */
- .synStatement { color: #B5BD68 } /* Green  */
+  background-color: #1D1F21;
+  color: #C5C8C6;
+  border: solid 2px lightgray;  /* Base   */
+}
+.synSpecial { color: #CC6666 }
+.synType { color: #F0C674 }
+.synComment { color: #7D8C93 }
+.synPreProc { color: #CB4b16 }
+.synIdentifier { color: #81A2BE }
+.synConstant { color: #8ABEB7 }
+.synStatement { color: #B5BD68 }
+
+/* モバイル用のヘッダー */
+@media screen and (max-width: 680px) {
+  #mobile-head {
+    background-color: transparent;
+  }
+  #global-menu .global-menu-list li a {
+    background-color: white;
+    color:black;
+  }
+  #global-menu {
+    background-color: white;
+    border-bottom: 1px solid #fff;
+  }
+}
