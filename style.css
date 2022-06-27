@@ -114,3 +114,11 @@ figure.figure-image-fotolife{ pointer-events: none; }
     border-bottom: 1px solid #fff;
   }
 }
+
+/* カテゴリリスト */
+.hatena-module-category .hatena-urllist li {
+  display: block;
+  border: none;
+  float: none;
+  margin-bottom:4px;
+}
