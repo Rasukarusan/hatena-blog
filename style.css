@@ -10,7 +10,7 @@ kbd {
   padding: 1px 3px;
   margin-right: 3px;
   background-color: #f9f9f9;
-  background-image: -moz-linear-gradient(center top , #eee, #f9f9f9, #eee);
+  background-image: -moz-linear-gradient(center top, #eee, #f9f9f9, #eee);
   border: 1px solid #aaa;
   border-radius: 2px;
   box-shadow: 1px 2px 2px #ddd;
@@ -26,7 +26,7 @@ kbd {
   color: #2b2b2b;
   background: #f7f6f5;
 }
-.entry-content blockquote:before{
+.entry-content blockquote:before {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -38,7 +38,7 @@ kbd {
   line-height: 1;
 }
 
-.entry-content blockquote:after{
+.entry-content blockquote:after {
   display: inline-block;
   position: absolute;
   bottom: -50px;
@@ -66,39 +66,57 @@ kbd {
 }
 
 /***コードの折返し**/
-pre, code {
+pre,
+code {
   max-height: 800px;
-  overflow: scroll;
   white-space: pre !important;
 }
 
 /***画像ホバー時のポップアップをしないよう設定***/
-img.hatena-fotolife { pointer-events: none; }
-figure.figure-image-fotolife{ pointer-events: none; }
+img.hatena-fotolife {
+  pointer-events: none;
+}
+figure.figure-image-fotolife {
+  pointer-events: none;
+}
 
 /***フォントサイズを変更***/
 .entry-content {
-  font-size:16px;
+  font-size: 16px;
   line-height: 2;
 }
 .code {
-  font-size:12px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
 /****シンタックスハイライト*****/
 .entry-content pre.code {
-  background-color: #1D1F21;
-  color: #C5C8C6;
-  border: solid 2px lightgray;  /* Base   */
+  background-color: #1d1f21;
+  color: #c5c8c6;
+  border: none;
 }
-.synSpecial { color: #CC6666 }
-.synType { color: #F0C674 }
-.synComment { color: #7D8C93 }
-.synPreProc { color: #CB4b16 }
-.synIdentifier { color: #81A2BE }
-.synConstant { color: #8ABEB7 }
-.synStatement { color: #B5BD68 }
+.synSpecial {
+  color: #cc6666;
+}
+.synType {
+  color: #f0c674;
+}
+.synComment {
+  color: #7d8c93;
+}
+.synPreProc {
+  color: #cb4b16;
+}
+.synIdentifier {
+  color: #81a2be;
+}
+.synConstant {
+  color: #8abeb7;
+}
+.synStatement {
+  color: #b5bd68;
+}
 
 /* モバイル用のヘッダー */
 @media screen and (max-width: 680px) {
@@ -107,7 +125,7 @@ figure.figure-image-fotolife{ pointer-events: none; }
   }
   #global-menu .global-menu-list li a {
     background-color: white;
-    color:black;
+    color: black;
   }
   #global-menu {
     background-color: white;
