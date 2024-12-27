@@ -95,6 +95,7 @@ figure.figure-image-fotolife {
   background-color: #1d1f21;
   color: #c5c8c6;
   border: none;
+  border-radius: 10px;
 }
 .synSpecial {
   color: #cc6666;
@@ -138,5 +139,5 @@ figure.figure-image-fotolife {
   display: block;
   border: none;
   float: none;
-  margin-bottom:4px;
+  margin-bottom: 4px;
 }
