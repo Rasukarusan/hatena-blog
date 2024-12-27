@@ -119,6 +119,11 @@ figure.figure-image-fotolife {
   color: #b5bd68;
 }
 
+/***mermaid記法で書かれたものは背景色を無しにする**/
+pre.code.mermaid {
+  background-color: transparent;
+}
+
 /* モバイル用のヘッダー */
 @media screen and (max-width: 680px) {
   #mobile-head {
